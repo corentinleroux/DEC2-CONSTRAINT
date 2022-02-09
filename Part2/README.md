@@ -18,13 +18,13 @@ CSP : P = (V, D, C)
       
 ## SEND + MORE = MONEY
 
-Variables : {S, E, N, D, M, O, R, Y}
+Variables : `{S, E, N, D, M, O, R, Y}`
 
-Domains : {0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9} 
+Domains : `{0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9}`
 
-Constraints : {allDifferent(S, E, N, D, M, O, R, Y)∧(1000*S + 100*E + 10*N + D) + (1000*M + 100*O + 10*R + E) = (10000*M + 1000*O + 100*N + 10*E + Y)}
+Constraints : `{allDifferent(S, E, N, D, M, O, R, Y) ∧ ( (1000*S + 100*E + 10*N + D) + (1000*M + 100*O + 10*R + E) = (10000*M + 1000*O + 100*N + 10*E + Y))}`
       
-CSP = ( {S, E, N, D, M, O, R, Y} , {0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9} , {allDifferent(S, E, N, D, M, O, R, Y)∧(1000*S + 100*E + 10*N + D) + (1000*M + 100*O + 10*R + E) = (10000*M + 1000*O + 100*N + 10*E + Y)})
+`CSP = ( {S, E, N, D, M, O, R, Y} , {0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9} , {allDifferent(S, E, N, D, M, O, R, Y) ∧ ( (1000*S + 100*E + 10*N + D) + (1000*M + 100*O + 10*R + E) = (10000*M + 1000*O + 100*N + 10*E + Y))})`
 
 ## 4-queens, generalize to N-queens
 
