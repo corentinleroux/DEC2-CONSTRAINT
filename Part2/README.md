@@ -52,10 +52,10 @@ I take the assumption that all is calculated on the euro basis.
 
 Variables : `{ } `
 
-c[2E,1E,50C,20C,10C,5C] = Returning number of coin for each type of coin
-A[2E,1E,50C,20C,10C,5C] = Amount of coin inserted for each type of coin
-S[2E,1E,50C,20C,10C,5C] = Number of coin available of each type 
-D = Product cost
+- C[2E,1E,50C,20C,10C,5C] = Returning number of coin for each type of coin
+- A[2E,1E,50C,20C,10C,5C] = Amount of coin inserted for each type of coin
+- S[2E,1E,50C,20C,10C,5C] = Number of coin available of each type 
+- D = Product cost
 
 Domains : `{ } `
 
