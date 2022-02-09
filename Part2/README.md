@@ -24,7 +24,7 @@ Domains : `{0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9}`
 
 Constraints : `{allDifferent(S, E, N, D, M, O, R, Y) ∧ ( (1000*S + 100*E + 10*N + D) + (1000*M + 100*O + 10*R + E) = (10000*M + 1000*O + 100*N + 10*E + Y))}`
       
-`CSP = ( {S, E, N, D, M, O, R, Y} , {0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9} , {allDifferent(S, E, N, D, M, O, R, Y) ∧ ( (1000*S + 100*E + 10*N + D) + (1000*M + 100*O + 10*R + E) = (10000*M + 1000*O + 100*N + 10*E + Y))})`
+CSP = `( {S, E, N, D, M, O, R, Y} , {0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9} , {allDifferent(S, E, N, D, M, O, R, Y) ∧ ( (1000*S + 100*E + 10*N + D) + (1000*M + 100*O + 10*R + E) = (10000*M + 1000*O + 100*N + 10*E + Y))})`
 
 ## 4-queens, generalize to N-queens
 
@@ -34,7 +34,7 @@ Domains : ` `
 
 Constraints : ` `
       
-`CSP = `
+CSP = ` `
 
 ## Magic squares N
 
@@ -44,17 +44,17 @@ Domains : ` `
 
 Constraints : ` `
       
-`CSP = `
+CSP = ` `
 
 ## Vending machine
 
-Variables : ` `
+Variables : `{ } `
 
-Domains : ` `
+Domains : `{ } `
 
-Constraints : ` `
+Constraints : ` { }`
       
-`CSP = `
+CSP = ` `
 
 COP : Minimize the number of coins 
 
@@ -66,6 +66,6 @@ Domains : ` `
 
 Constraints : ` `
       
-`CSP = `
+CSP = ` `
 
 Will probably be a COP to optimize the number of matches 
