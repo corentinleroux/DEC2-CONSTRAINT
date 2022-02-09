@@ -61,8 +61,9 @@ Domains : `{ } `
 
 Constraints : ` { }`
 
-`C1 : A[2E]*2 + A[1E]*1 + A[50C]*0.5 A[20C]*0.2 + A[10C]*0.1  + A[10C]*0.1 + A[5C]*0.5 >= D`
-`C2 : C[i] <= A[i] + S[i] for i in (2E,1E,50C,20C,10C,5C)`      
+- `C1 : A[2E]*2 + A[1E]*1 + A[50C]*0.5 A[20C]*0.2 + A[10C]*0.1  + A[10C]*0.1 + A[5C]*0.5 >= D`
+- `C2 : C[i] <= A[i] + S[i] for i in (2E,1E,50C,20C,10C,5C)`      
+
 CSP = ` `
 
 COP = Minimize the number of coins (Sum of C values) :
