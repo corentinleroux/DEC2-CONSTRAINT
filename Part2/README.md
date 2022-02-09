@@ -66,6 +66,7 @@ Constraints : ` { }`
 CSP = ` `
 
 COP = Minimize the number of coins (Sum of C values) :
+
 `COP : Minimize (C[2E] + C[1E] + C[50C] + C[20C] + C[10C] + C[5C])`
 
 ## Stable matching
