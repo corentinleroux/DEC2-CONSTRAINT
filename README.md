@@ -24,3 +24,5 @@ We had to model all the problem that follow as Constraint Satisfaction Problems 
 3. Magic squares N
 4. Vending machine
 5. Stable matching 
+
+All are available on the  [Part 2 README](https://github.com/corentinleroux/dec2-constraint/tree/main/Part2) 
