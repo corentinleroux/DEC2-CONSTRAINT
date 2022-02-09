@@ -73,7 +73,7 @@ C3 means we cant give back more pieces than what we have in stock
 
 CSP = `( {C,A,S,D} , {N, N, N, N+} , {C1,C2,C3} ) + Minimize (C[2E] + C[1E] + C[50C] + C[20C] + C[10C] + C[5C]) `
 
-COP = Minimize the number of coins (Sum of C values) : `COP : Minimize (C[2E] + C[1E] + C[50C] + C[20C] + C[10C] + C[5C])`
+COP = Minimize the number of returned coins (Sum of C values) : `COP : Minimize (C[2E] + C[1E] + C[50C] + C[20C] + C[10C] + C[5C])`
 
 ## Stable matching
 
