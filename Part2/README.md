@@ -65,3 +65,5 @@ Domains : ` `
 Constraints : ` `
       
 `CSP = `
+
+Will probably be a COP to optimize the number of matches 
