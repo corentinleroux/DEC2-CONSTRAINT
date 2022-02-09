@@ -5,6 +5,11 @@
 
 # DEC2-CONSTRAINT - M2IKSEM
 
+## Explanation 
+
+Some paragraph and pictures to explain & answers questions on the slide
+
+## Navigation 
 Here is all the exercices for my homework of DEC2-Constraint.
 
 
