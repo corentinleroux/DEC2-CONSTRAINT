@@ -5,11 +5,17 @@
 
 # DEC2-CONSTRAINT - M2IKSEM
 
+## Part 2 - Modeling Exercices
 Here is all the exercices for my homework of DEC2-Constraint.
 
 Back to main menu : [Main README](https://github.com/corentinleroux/dec2-constraint/)
 
-Other exercises : 
+### 1. SEND + MORE = MONEY
 
-- [README of the exercise : Magic Square](https://github.com/corentinleroux/dec2-constraint/tree/main/Square)
-- [README of the exercise : N-Queens](https://github.com/corentinleroux/dec2-constraint/tree/main/N-Queens)
+### 2. 4-queens, generalize to N-queens
+
+### 3. Magic squares N
+
+### 4. Vending machine
+
+### 5. Stable matching
