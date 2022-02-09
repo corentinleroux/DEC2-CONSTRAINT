@@ -62,10 +62,11 @@ Domains : `{ } `
 Constraints : ` { }`
 
 `C1 : A[2E]*2 + A[1E]*1 + A[50C]*0.5 A[20C]*0.2 + A[10C]*0.1  + A[10C]*0.1 + A[5C]*0.5 >= D`
-      
+`C2 : `      
 CSP = ` `
 
-COP : Minimize the number of coins 
+COP = Minimize the number of coins (Sum of C values) :
+`COP : Minimize (C[2E] + C[1E] + C[50C] + C[20C] + C[10C] + C[5C])`
 
 ## Stable matching
 
