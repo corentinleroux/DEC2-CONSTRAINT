@@ -61,6 +61,10 @@ Domains : `{ } `
 
 Constraints : ` { }`
 
+- C1 means user have to insert amount > to price
+- C2 means we should return the différence between what is insert and the price
+- C3 means we cant give back more pieces than what we have in stock
+
 - `C1 : A[2E]*2 + A[1E]*1 + A[50C]*0.5 A[20C]*0.2 + A[10C]*0.1  + A[10C]*0.1 + A[5C]*0.5 >= D`
 - `C2 : C[2E]*2 + C[1E]*1 + C[50C]*0.5 C[20C]*0.2 + c[10C]*0.1  + c[10C]*0.1 + c[5C]*0.5 = D - A[2E]*2 + A[1E]*1 + A[50C]*0.5 A[20C]*0.2 + A[10C]*0.1  + A[10C]*0.1 + A[5C]*0.5`
 - `C3 : C[i] <= A[i] + S[i] for i in (2E,1E,50C,20C,10C,5C)`      
