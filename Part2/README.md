@@ -57,9 +57,9 @@ Variables : `{ } `
 - S[2E,1E,50C,20C,10C,5C] = Number of coin available of each type 
 - D = Product cost
 
-Domains : `{ } `
+Domains : `{N0, N0, N0, N+} `
 
-Constraints : ` { }`
+Constraints : ` {C1, C2, C3}`
 
 C1 means user have to insert amount > to price
 
