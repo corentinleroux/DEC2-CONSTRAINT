@@ -10,12 +10,12 @@ Here is all the exercices for my homework of DEC2-Constraint.
 
 Back to main menu : [Main README](https://github.com/corentinleroux/dec2-constraint/)
 
-### 1. SEND + MORE = MONEY
+## SEND + MORE = MONEY
 
-### 2. 4-queens, generalize to N-queens
+## 4-queens, generalize to N-queens
 
-### 3. Magic squares N
+## Magic squares N
 
-### 4. Vending machine
+## Vending machine
 
-### 5. Stable matching
+## Stable matching
