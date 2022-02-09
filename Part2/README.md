@@ -48,11 +48,20 @@ CSP = ` `
 
 ## Vending machine
 
+I take the assumption that all is calculated on the euro basis.
+
 Variables : `{ } `
+
+c[2E,1E,50C,20C,10C,5C] = Returning number of coin for each type of coin
+A[2E,1E,50C,20C,10C,5C] = Amount of coin inserted for each type of coin
+S[2E,1E,50C,20C,10C,5C] = Number of coin available of each type 
+D = Product cost
 
 Domains : `{ } `
 
 Constraints : ` { }`
+
+`C1 : A[2E]*2 + A[1E]*1 + A[50C]*0.5 A[20C]*0.2 + A[10C]*0.1  + A[10C]*0.1 + A[5C]*0.5 >= D`
       
 CSP = ` `
 
