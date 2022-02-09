@@ -17,7 +17,7 @@ Here is all the development exercices for my homework of DEC2-Constraint.
 
 ## Part 2 : Modeling Exercices 
 
-We had to model all the problem that follow as CSP (or COP if applicable).
+We had to model all the problem that follow as Constraint Satisfaction Problems (or Combinatorial Optimisation Problems if applicable).
 
 1. SEND + MORE = MONEY
 2. 4-queens, generalize to N-queens
