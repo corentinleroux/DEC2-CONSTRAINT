@@ -8,6 +8,6 @@
 Here is all the exercices for my homework of DEC2-Constraint.
 
 
-- [README of the exercise : N-Queens](https://youtu.be/Gebm9YGn4Lg)
-- [README of the exercise : TWO + TWO = FOUR](https://youtu.be/Gebm9YGn4Lg)
-- [README of the exercise : Magic Square](https://youtu.be/Gebm9YGn4Lg)
+- [README of the exercise : N-Queens](https://github.com/corentinleroux/dec2-constraint/tree/main/N-Queens)
+- [README of the exercise : TWO + TWO = FOUR](https://github.com/corentinleroux/dec2-constraint/tree/main/Square)
+- [README of the exercise : Magic Square](https://github.com/corentinleroux/dec2-constraint/tree/main/TWO)
