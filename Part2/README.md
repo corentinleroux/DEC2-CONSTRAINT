@@ -28,8 +28,40 @@ Constraints : `{allDifferent(S, E, N, D, M, O, R, Y) ∧ ( (1000*S + 100*E + 10*
 
 ## 4-queens, generalize to N-queens
 
+Variables : ` `
+
+Domains : ` `
+
+Constraints : ` `
+      
+`CSP = `
+
 ## Magic squares N
+
+Variables : ` `
+
+Domains : ` `
+
+Constraints : ` `
+      
+`CSP = `
 
 ## Vending machine
 
+Variables : ` `
+
+Domains : ` `
+
+Constraints : ` `
+      
+`CSP = `
+
 ## Stable matching
+
+Variables : ` `
+
+Domains : ` `
+
+Constraints : ` `
+      
+`CSP = `
