@@ -56,6 +56,8 @@ Constraints : ` `
       
 `CSP = `
 
+COP : Minimize the number of coins 
+
 ## Stable matching
 
 Variables : ` `
