@@ -23,7 +23,7 @@ Here is my exercise for N-Queens problem.
 > | 2nd tentative | 0.18s | 4.06s | 25.76s | 6.33s | 610.14s |
 > | 3d tentative | 0.18s | 3.15s | 23.37s | 6.99s | 609.57s |
 > | Average | 0.20s | 3.51s | 24.55s | 6.73s | 597.17s |
-> | Multiplier | 1 | 17.55 | 122.75 | 33.65 | 2 985 |
+> | Multiplier | 1 | 18 | 123 | 34 | 2 986 |
 
 
 ## Navigation 
