@@ -19,10 +19,10 @@ Here is my exercise for N-Queens problem.
 4. Measure execution time for different size problems.
 > | Size | 6  | 8 | 10 | 11 | 12 |
 > | :---:   | :-: | :-: | :-: | :-: | :-: |
-> | 1st tentative | Xs | Xs | Xs | Xs | Xs | Xs |
-> | 2nd tentative | Xs | Xs | Xs | Xs | Xs | Xs |
-> | 3d tentative | Xs | Xs | Xs | Xs | Xs | Xs |
-> | Average | Xs | Xs | Xs | Xs | Xs | Xs |
+> | 1st tentative | 0.25s | 3.32s | 24.52s | 6.87s | 571.81s |
+> | 2nd tentative | Xs | Xs | Xs | Xs | Xs |
+> | 3d tentative | Xs | Xs | Xs | Xs | Xs |
+> | Average | Xs | Xs | Xs | Xs | Xs |
 
 
 ## Navigation 
