@@ -20,9 +20,10 @@ Here is my exercise for N-Queens problem.
 > | Size | 6  | 8 | 10 | 11 | 12 |
 > | :---:   | :-: | :-: | :-: | :-: | :-: |
 > | 1st tentative | 0.25s | 3.32s | 24.52s | 6.87s | 571.81s |
-> | 2nd tentative | Xs | Xs | Xs | Xs | Xs |
-> | 3d tentative | Xs | Xs | Xs | Xs | Xs |
-> | Average | Xs | Xs | Xs | Xs | Xs |
+> | 2nd tentative | 0.18s | 4.06s | 25.76s | 6.33s | 610.14s |
+> | 3d tentative | 0.18s | 3.15s | 23.37s | 6.99s | 609.57s |
+> | Average | 0.20s | 3.51s | 24.55s | 6.73s | 597.17s |
+> | Multiplier | 1 | 17.55 | 122.75 | 33.65 | 2 985 |
 
 
 ## Navigation 
