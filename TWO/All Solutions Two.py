@@ -18,6 +18,7 @@ def two_problem():
                                 break;
     print("\nThere is ",s," solutions.")
 
+
 print("Starting Two + Two = Four ...")
 start = time.time()
 two_problem()
@@ -25,7 +26,7 @@ end = time.time()
 print("Execution time : ", round(end-start,2),"s")
 print("--------------------------")
 
-"""
+
 def send_more(y):
     s= 0
     for S in range (y,10):
@@ -48,7 +49,7 @@ def send_more(y):
                                         break;
     print("\nThere is ",s," solutions.")
 
-
+"""
 print("Starting Send + More = Money ... without 0 allowed as first value")
 start = time.time()
 send_more(1)
@@ -62,3 +63,4 @@ end = time.time()
 print("Execution time : ", round(end-start,2),"s")
 print("--------------------------")
 """
+
