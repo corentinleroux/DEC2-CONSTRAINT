@@ -5,8 +5,15 @@
 
 # DEC2-CONSTRAINT - M2IKSEM
 
-Here is all the exercices for my homework of DEC2-Constraint.
+Here is my exercise TWO + TWO = FOUR.
 
+## Description
+
+I used Python for my script and the library "time" to check the execution time of my code. 
+
+
+
+## Navigation
 Back to main menu : [Main README](https://github.com/corentinleroux/dec2-constraint/)
 
 Other exercises : 
