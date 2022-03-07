@@ -108,16 +108,15 @@ COP = `( {C,A,S,D} , {N, N, N, N+} , {C1,C2,C3} ) +  Minimize (∑C[i] i ∈ [2E
 
 Variables : `Wi (the wife of a given man i) , Hj (the husband of woman j), ManTable[x][y], WomanTable[y][x], y (number of woman) , x (number of man), matchingTable[x][2])`
 
-Domains : ``
+Domains : `{N+, N+, N+, N+, N+, N+, N+}`
 
 Constraints : 
 
 C1 and C2 means that each man or woman can marry only one woman or man (respectively)
 
-`C1 : allDifferent(WomanTable[j][2] for j in x)`
-`C2 : allDifferent(ManTable[j][2] for j in x)`
-
-C3 means that if a man A (mA) prefer the woman (wB) of man B (mB) to his own wife (wA), than wB have to prefer mB to mA.
+- `C1 : allDifferent(WomanTable[j][2] for j in x)`
+- `C2 : allDifferent(ManTable[j][2] for j in x)`
+- `C3 means that if a man A (mA) prefer the woman (wB) of man B (mB) to his own wife (wA), than wB have to prefer mB to mA.`
 
 CSP = `( {Wi, Hj, ManTable, WomanTable, x, y, matchingTable} ,  {N+, N+, N+, N+, N+, N+, N+} , {C1,C2,C3} )`
 
