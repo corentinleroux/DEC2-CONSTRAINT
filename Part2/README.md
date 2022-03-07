@@ -28,21 +28,19 @@ CSP = `( {S, E, N, D, M, O, R, Y} , {0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0
 
 ## 4-queens, generalized to N-queens
 
-Variables : `N (number of Queens and size of the board), Board[N][N] `
+Variables : `{N (number of Queens and size of the board), Board[N][N]}`
 
 Domains : `N ∈ N`
 
 Constraints : `
 
-C1 means only 1 queen by column
-C2 means only 1 queen by row
-C3 means only 1 queen by diagonale 
+`C1 means only 1 queen by column`
+`C2 means only 1 queen by row`
+`C3 means only 1 queen by diagonale `
 
-C1 = Only one queen by row, column and diagonal
-C2 = Queen can be placed only on an empty case
-C1 = ∑(j=1, n) Board[i][j] == 1 
-C2 = ∑(i=1, n) Board[i][j] == 1`
-C3 = ∑(i,j=1, n) Board[i+1][j+1] + Board[i-1][j-1] == 1     
+`C1 = ∑(j=1, n) Board[i][j] == 1 `
+`C2 = ∑(i=1, n) Board[i][j] == 1`
+`C3 = ∑(i,j=1, n) Board[i+1][j+1] + Board[i-1][j-1] == 1  `   
 CSP = ` `
 
 ## Magic squares N
