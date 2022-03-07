@@ -112,18 +112,15 @@ Domains : ``
 
 Constraints : 
 
-C1 os 
-`C1 : Hj[1] == Wi && WHj[1] [1]!= Hj  ||  Wi[1] == Hj && HWi[1] [1] != Wi (one Way)`
+C1 and C2 means that each man or woman can marry only one woman or man (respectively)
 
-`C2 : Hj[1] == Wi && WHj[1] [1]== Hj  ||  Wi[1] == Hj && HWi[1] [1] == Wi  (stability condition)`
+`C1 : allDifferent(WomanTable[j][2] for j in x)`
+`C2 : allDifferent(ManTable[j][2] for j in x)`
 
-`C3 : Hj[n] == Wi && WHj[n] [n]== Hj  ||  Wi[n] == Hj && HWi[n] [n] == Wi (Mutual exclusion)`
+C3 means that if a man A (mA) prefer the woman (wB) of man B (mB) to his own wife (wA), than wB have to prefer mB to mA.
 
-
-`C1 :   
-
-CSP = ` `
+CSP = `( {Wi, Hj, ManTable, WomanTable, x, y, matchingTable} ,  {N+, N+, N+, N+, N+, N+, N+} , {C1,C2,C3} )`
 
 It is a COP to optimize the ranking of each matches. (for a given couple, the rank of the partner should be the lowest as possible)
 
-COP = `Minimize (ManTable[Wi][Hj]+WomanTable[Hj][Wi])`
+COP = `( {Wi, Hj, ManTable, WomanTable, x, y, matchingTable} ,  {N+, N+, N+, N+, N+, N+, N+} , {C1,C2,C3} + Minimize (ManTable[Hj][Wi]+WomanTable[Wi][Hj]) )`
