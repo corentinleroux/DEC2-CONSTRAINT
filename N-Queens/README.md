@@ -11,11 +11,14 @@ Here is my exercise for N-Queens problem.
 ## Questions
 
 1. Is it **easy** to program ? 
-> 
+> The problem is quite simple to program with two for loops to check the columns and rows and a recursion function to check the diagonals. 
+
 2. Can it be **generalized** (for arbitrary size of problems) ? 
-> 
+> The code is generelized to N-queens (even if not optimized
+ 
 3. Is it **efficient** ? Does it **scale well** (in terms of executions) ? 
->  
+>  Not really, mainly because of the recursion function which increases the complexity of the program. I think there are much more efficient solutions. 
+
 4. Measure execution time for different size problems.
 > | Size | 6  | 8 | 10 | 11 | 12 |
 > | :---:   | :-: | :-: | :-: | :-: | :-: |
