@@ -26,14 +26,23 @@ Constraints : `{allDifferent(S, E, N, D, M, O, R, Y) ∧ ( (1000*S + 100*E + 10*
       
 CSP = `( {S, E, N, D, M, O, R, Y} , {0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0...9} , {allDifferent(S, E, N, D, M, O, R, Y) ∧ ( (1000*S + 100*E + 10*N + D) + (1000*M + 100*O + 10*R + E) = (10000*M + 1000*O + 100*N + 10*E + Y))})`
 
-## 4-queens, generalize to N-queens
+## 4-queens, generalized to N-queens
 
-Variables : ` `
+Variables : `N (number of Queens and size of the board), Board[N][N] `
 
-Domains : ` `
+Domains : `N ∈ N`
 
-Constraints : ` `
-      
+Constraints : `
+
+C1 means only 1 queen by column
+C2 means only 1 queen by row
+C3 means only 1 queen by diagonale 
+
+C1 = Only one queen by row, column and diagonal
+C2 = Queen can be placed only on an empty case
+C1 = ∑(j=1, n) Board[i][j] == 1 
+C2 = ∑(i=1, n) Board[i][j] == 1`
+C3 = ∑(i,j=1, n) Board[i+1][j+1] + Board[i-1][j-1] == 1     
 CSP = ` `
 
 ## Magic squares N
