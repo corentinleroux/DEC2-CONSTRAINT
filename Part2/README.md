@@ -105,11 +105,11 @@ COP = `( {C,A,S,D} , {N, N, N, N+} , {C1,C2,C3} ) +  Minimize (∑C[i] i ∈ [2E
 
 ## Stable matching
 
-Variables : ` `
+Variables : `Wi (the wife of a given man i) , Hj (the husband of woman j), ManTable[x][y], WomanTable[y][x], y (number of woman) , x (number of man) `
 
 Domains : ` `
 
-Constraints : ` `
+Constraints : `Hj `
       
 CSP = ` `
 
