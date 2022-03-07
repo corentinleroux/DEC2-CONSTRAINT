@@ -105,12 +105,16 @@ COP = `( {C,A,S,D} , {N, N, N, N+} , {C1,C2,C3} ) +  Minimize (∑C[i] i ∈ [2E
 
 ## Stable matching
 
-Variables : `Wi (the wife of a given man i) , Hj (the husband of woman j), ManTable[x][y], WomanTable[y][x], y (number of woman) , x (number of man) `
+Variables : `Wi (the wife of a given man i) , Hj (the husband of woman j), ManTable[x][y], WomanTable[y][x], y (number of woman) , x (number of man), matchingTable[x][2])`
 
-Domains : ` `
+Domains : ``
 
-Constraints : `Hj `
+Constraints : 
+
+`C1 : Hj[1] == Wi && WHj[1] [1]!= Hj  ||  Wi[1] == Hj && HWi[1] [1] != Wi (one Way)`
+`C2 : Hj[1] == Wi && WHj[1] [1]== Hj  ||  Wi[1] == Hj && HWi[1] [1] == Wi  (stability condition)`
+`C3 : Hj[n] == Wi && WHj[n] [n]== Hj  ||  Wi[n] == Hj && HWi[n] [n] == Wi (Mutual exclusion)`
       
 CSP = ` `
 
-Will probably be a COP to optimize the number of matches 
+We could imagine a COP to optimize the ranking of each matches.
