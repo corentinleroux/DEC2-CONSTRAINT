@@ -40,25 +40,38 @@ Constraints :
 
 - `C3 means only 1 queen by diagonale `
 
-- `C1 = ∑(j=1, n) Board[i][j] == 1 `
+- `C1 : ∑(j=1, n) Board[i][j] == 1 `
 
-- `C2 = ∑(i=1, n) Board[i][j] == 1`
+- `C2 : ∑(i=1, n) Board[i][j] == 1`
 
-- `C3 = ∑(i,j=1, n) Board[i+1][j+1] + Board[i-1][j-1] == 1  `
+- `C3 : ∑(i,j=1, n) Board[i+1][j+1] + Board[i-1][j-1] == 1  `
 
 - `C4 : N > 3`
 
 CSP = `( {N, Board[N][N]} , {N+,N} , {C1,C2,C3,C4 } )`
 
+
 ## Magic squares N
 
-Variables : ` `
+Variables : `{N (size of the problem), M (magic constant), Board[N][N] }`
 
-Domains : ` `
+Domains : `{N0, N+, N0}`
 
-Constraints : ` `
+Constraints : ``
+
+- `C2 means sum of colum must equal M`
+- `C3 means sum of row must equal M`
+- `C4 means sum of diagonal must equal M`
+- `C5 means all numbers of the board must be different`
+
+- `C1 : M == N(N^2+1) / 2`
+- `C2 : `∑(j=1, n) Board[i][j] == M `
+- `C3 : `∑(j=1, n) Board[i][j] == M`
+- `C4 : ∑(i,j=1, n) Board[i+1][j+1] + Board[i-1][j-1] == M`
+- `C5 : allDifferent(Board[i][j] for i,j in N)`
       
-CSP = ` `
+CSP = `( {N, M, Board[N][N]} , {N0, N+, N0} , {C1, C2, C3, C4, C5} )`
+
 
 ## Vending machine
 
