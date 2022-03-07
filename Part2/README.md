@@ -90,7 +90,7 @@ Constraints : ` {C1, C2, C3}`
 
 C1 means user have to insert amount > to price
 
-C2 means we should return the différence between what is insert and the price
+C2 means we should return the difference between what is insert and the price
 
 C3 means we cant give back more pieces than what we have in stock
 
@@ -103,6 +103,7 @@ COP = Minimize the number of returned coins (Sum of C values) : `COP : Minimize 
 
 COP = `( {C,A,S,D} , {N, N, N, N+} , {C1,C2,C3} ) +  Minimize (∑C[i] i ∈ [2E,1E,50C,20C,10C,5C])`
 
+
 ## Stable matching
 
 Variables : `Wi (the wife of a given man i) , Hj (the husband of woman j), ManTable[x][y], WomanTable[y][x], y (number of woman) , x (number of man), matchingTable[x][2])`
@@ -111,10 +112,18 @@ Domains : ``
 
 Constraints : 
 
+C1 os 
 `C1 : Hj[1] == Wi && WHj[1] [1]!= Hj  ||  Wi[1] == Hj && HWi[1] [1] != Wi (one Way)`
+
 `C2 : Hj[1] == Wi && WHj[1] [1]== Hj  ||  Wi[1] == Hj && HWi[1] [1] == Wi  (stability condition)`
+
 `C3 : Hj[n] == Wi && WHj[n] [n]== Hj  ||  Wi[n] == Hj && HWi[n] [n] == Wi (Mutual exclusion)`
-      
+
+
+`C1 :   
+
 CSP = ` `
 
-We could imagine a COP to optimize the ranking of each matches.
+It is a COP to optimize the ranking of each matches. (for a given couple, the rank of the partner should be the lowest as possible)
+
+COP = `Minimize (ManTable[Wi][Hj]+WomanTable[Hj][Wi])`
