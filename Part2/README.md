@@ -100,6 +100,7 @@ C3 means we cant give back more pieces than what we have in stock
 
 COP = Minimize the number of returned coins (Sum of C values) : `COP : Minimize (∑C[i] i ∈ [2E,1E,50C,20C,10C,5C]) ou Minimize (C[2E] + C[1E] + C[50C] + C[20C] + C[10C] + C[5C]) (présentation différente)`
 
+
 COP = `( {C,A,S,D} , {N, N, N, N+} , {C1,C2,C3} ) +  Minimize (∑C[i] i ∈ [2E,1E,50C,20C,10C,5C])`
 
 ## Stable matching
