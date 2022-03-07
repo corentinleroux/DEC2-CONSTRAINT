@@ -4,7 +4,10 @@
 
 # DEC2-CONSTRAINT - M2IKSEM
 
-Here is my exercise for N-Square problem.
+Here is my exercise for N-Square problem. There is 2 codes : 
+
+- **N-Square.ipynb** to allow the user to unter his own value (must be odd)
+- **N-SquareForTesting.ipynb** to test execution time (turned the code as a function)
 
 ## Description
 
