@@ -34,5 +34,5 @@ Back to main menu : [Main README](https://github.com/corentinleroux/dec2-constra
 
 Other exercises : 
 
-- [README of the exercise : TWO + TWO = FOUR](https://github.com/corentinleroux/dec2-constraint/tree/main/Square)
-- [README of the exercise : Magic Square](https://github.com/corentinleroux/dec2-constraint/tree/main/TWO)
+- [README of the exercise : TWO + TWO = FOUR](https://github.com/corentinleroux/dec2-constraint/tree/main/TWO)
+- [README of the exercise : Magic Square](https://github.com/corentinleroux/dec2-constraint/tree/main/Square)
