@@ -30,18 +30,25 @@ CSP = `( {S, E, N, D, M, O, R, Y} , {0...9, 0...9, 0...9, 0...9, 0...9, 0...9, 0
 
 Variables : `{N (number of Queens and size of the board), Board[N][N]}`
 
-Domains : `N ∈ N`
+Domains : `N ∈ N+`
 
-Constraints : `
+Constraints :
 
-`C1 means only 1 queen by column`
-`C2 means only 1 queen by row`
-`C3 means only 1 queen by diagonale `
+- `C1 means only 1 queen by column`
 
-`C1 = ∑(j=1, n) Board[i][j] == 1 `
-`C2 = ∑(i=1, n) Board[i][j] == 1`
-`C3 = ∑(i,j=1, n) Board[i+1][j+1] + Board[i-1][j-1] == 1  `   
-CSP = ` `
+- `C2 means only 1 queen by row`
+
+- `C3 means only 1 queen by diagonale `
+
+- `C1 = ∑(j=1, n) Board[i][j] == 1 `
+
+- `C2 = ∑(i=1, n) Board[i][j] == 1`
+
+- `C3 = ∑(i,j=1, n) Board[i+1][j+1] + Board[i-1][j-1] == 1  `
+
+- `C4 : N > 3`
+
+CSP = `( {N, Board[N][N]} , {N+,N} , {C1,C2,C3,C4 } )`
 
 ## Magic squares N
 
@@ -80,7 +87,7 @@ C3 means we cant give back more pieces than what we have in stock
 
 COP = Minimize the number of returned coins (Sum of C values) : `COP : Minimize (∑C[i] i ∈ [2E,1E,50C,20C,10C,5C]) ou Minimize (C[2E] + C[1E] + C[50C] + C[20C] + C[10C] + C[5C]) (présentation différente)`
 
-COP = `( {C,A,S,D} , {N, N, N, N+} , {C1,C2,C3} ) +  Minimize (∑C[i] i ∈ [2E,1E,50C,20C,10C,5C])  `
+COP = `( {C,A,S,D} , {N, N, N, N+} , {C1,C2,C3} ) +  Minimize (∑C[i] i ∈ [2E,1E,50C,20C,10C,5C])`
 
 ## Stable matching
 
