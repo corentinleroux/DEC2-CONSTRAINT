@@ -43,7 +43,7 @@ As we can see, it take much more time to run (mostly because of the list and bec
 
 ## Navigation
 
-Back to main menu : [Root directory](/../)
+Back to main menu : [Root directory](//)
 
 Other exercises : 
 
