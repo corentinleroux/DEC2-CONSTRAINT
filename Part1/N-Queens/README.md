@@ -30,10 +30,10 @@ Here is my exercise for N-Queens problem.
 
 
 ## Navigation 
+
 Here is all the exercices for my homework of DEC2-Constraint.
 
-
-Back to main menu : [Main README](/README.md)
+Back to main menu : [Root directory](/../../)
 
 Other exercises : 
 

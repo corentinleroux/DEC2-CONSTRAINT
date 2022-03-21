@@ -27,10 +27,10 @@ Here is my exercise for N-Square problem. There is 2 codes :
 
 
 ## Navigation 
+
 Here is all the exercices for my homework of DEC2-Constraint.
 
-
-Back to main menu : [Main README](/README.md)
+Back to main menu : [Root directory](/../../)
 
 Other exercises : 
 
