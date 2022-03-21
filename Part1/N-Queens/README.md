@@ -33,7 +33,7 @@ Here is my exercise for N-Queens problem.
 
 Here is all the exercices for my homework of DEC2-Constraint.
 
-Back to main menu : [Root directory](/../../)
+Back to main menu : [Root directory](/./)
 
 Other exercises : 
 
