@@ -42,7 +42,7 @@ As we can see, it take much more time to run (mostly because of the list and bec
 > It takes approximatly 85x more time with 3 more letters.  (106x if we want to display all solution even if they start with a 0, time increased by displaying, but its the same number of iteration).
 
 ## Navigation
-Back to main menu : [Main README](../../)
+Back to main menu : [Main README](/)
 
 Other exercises : 
 
