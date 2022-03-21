@@ -34,5 +34,5 @@ Back to main menu : [Main README](https://github.com/corentinleroux/dec2-constra
 
 Other exercises : 
 
-- [README of the exercise : N-Queens](../N-Queens)
-- [README of the exercise : TWO + TWO = FOUR](../TWO+TWO=FOUR)
+- [README of the exercise : N-Queens](https://github.com/corentinleroux/dec2-constraint/tree/main/N-Queens)
+- [README of the exercise : TWO + TWO = FOUR](https://github.com/corentinleroux/dec2-constraint/tree/main/TWO)
