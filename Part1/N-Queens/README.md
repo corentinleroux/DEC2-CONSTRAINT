@@ -29,13 +29,13 @@ Here is my exercise for N-Queens problem.
 > | Multiplier | 1 | 18 | 123 | 34 | 2 986 |
 
 
-## Navigation 
+## Navigation
+
 Here is all the exercices for my homework of DEC2-Constraint.
 
-
-Back to main menu : [Main README](https://github.com/corentinleroux/dec2-constraint/)
+Back to main menu : [Main README](/README.md)
 
 Other exercises : 
 
-- [README of the exercise : TWO + TWO = FOUR](https://github.com/corentinleroux/dec2-constraint/tree/main/TWO)
-- [README of the exercise : Magic Square](https://github.com/corentinleroux/dec2-constraint/tree/main/Square)
+- [README of the exercise : TWO + TWO = FOUR](../TWO+TWO=FOUR)
+- [README of the exercise : Magic Square](../Magic-Square)

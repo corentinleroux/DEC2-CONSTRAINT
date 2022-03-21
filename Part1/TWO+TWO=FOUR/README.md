@@ -42,9 +42,10 @@ As we can see, it take much more time to run (mostly because of the list and bec
 > It takes approximatly 85x more time with 3 more letters.  (106x if we want to display all solution even if they start with a 0, time increased by displaying, but its the same number of iteration).
 
 ## Navigation
-Back to main menu : [Main README](https://github.com/corentinleroux/dec2-constraint/)
+
+Back to main menu : [Main README](/README.md)
 
 Other exercises : 
 
-- [README of the exercise : Magic Square](https://github.com/corentinleroux/dec2-constraint/tree/main/Square)
-- [README of the exercise : N-Queens](https://github.com/corentinleroux/dec2-constraint/tree/main/N-Queens)
+- [README of the exercise : N-Queens](../N-Queens)
+- [README of the exercise : Magic Square](../Magic-Square)
