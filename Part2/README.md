@@ -5,7 +5,7 @@
 
 # DEC2-CONSTRAINT - M2IKSEM
 
-Back to main menu : [Root directory](/../../)
+Back to main menu : [Main README](/README.md)
 
 ## Part 2 - Modeling Exercices
 Here is all the exercices for my homework of DEC2-Constraint.
