@@ -30,7 +30,7 @@ Here is my exercise for N-Square problem. There is 2 codes :
 Here is all the exercices for my homework of DEC2-Constraint.
 
 
-Back to main menu : [Main README](../../)
+Back to main menu : [Main README]()
 
 Other exercises : 
 
