@@ -10,9 +10,9 @@
 Here is all the development exercices for my homework of DEC2-Constraint.
 
 
-- [README of the exercise : N-Queens](https://github.com/corentinleroux/dec2-constraint/tree/main/N-Queens)
-- [README of the exercise : TWO + TWO = FOUR](https://github.com/corentinleroux/dec2-constraint/tree/main/TWO)
-- [README of the exercise : Magic Square](https://github.com/corentinleroux/dec2-constraint/tree/main/Square)
+- [README of the exercise : N-Queens](Part1/N-Queens)
+- [README of the exercise : TWO + TWO = FOUR](Part1/TWO+TWO=FOUR)
+- [README of the exercise : Magic Square](Part1/Magic-Square)
 
 
 ## Part 2 : Modeling Exercices 
@@ -25,4 +25,4 @@ We had to model all the problem that follow as Constraint Satisfaction Problems 
 4. Vending machine
 5. Stable matching 
 
-All are available on the  [Part 2 README](https://github.com/corentinleroux/dec2-constraint/tree/main/Part2) 
+All are available on the  [Part 2 README](Part2) 

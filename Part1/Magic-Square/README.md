@@ -26,13 +26,13 @@ Here is my exercise for N-Square problem. There is 2 codes :
 > If you run the **N-SquareForTesting**, you will see that it always takes less than 1 second to execute the code. 
 
 
-## Navigation 
+## Navigation
+
 Here is all the exercices for my homework of DEC2-Constraint.
 
-
-Back to main menu : [Main README](https://github.com/corentinleroux/dec2-constraint/)
+Back to main menu : [Main README](/README.md)
 
 Other exercises : 
 
-- [README of the exercise : N-Queens](https://github.com/corentinleroux/dec2-constraint/tree/main/N-Queens)
-- [README of the exercise : TWO + TWO = FOUR](https://github.com/corentinleroux/dec2-constraint/tree/main/TWO)
+- [README of the exercise : N-Queens](../N-Queens)
+- [README of the exercise : TWO + TWO = FOUR](../TWO+TWO=FOUR)
