@@ -24,33 +24,25 @@ public class MagicSquare {
 
         IntVar[] allValues = new IntVar[]{}, columns = new IntVar[N], diag1 = new IntVar[N], diag2 = new IntVar[N];
 
-        /* ROWS */
-        for (int i = 0; i < N; i++) {
-            model.sum(matrix[i], "=", SUM).post();
-            allValues = ArrayUtils.concat(allValues, matrix[i]);
-        }
-
-        model.allDifferent(allValues).post();
-
-        /* COLUMNS */
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++) {
                 columns[j] = matrix[j][i];
             }
 
+            model.sum(matrix[i], "=", SUM).post();
             model.sum(columns, "=", SUM).post();
-        }
 
-        /* DIAGONALS */
-        for (int i = 0; i < N; i++) {
             diag1[i] = matrix[i][i];
             diag2[i] = matrix[i][N - 1 - i];
+
+            allValues = ArrayUtils.concat(allValues, matrix[i]);
         }
 
         model.sum(diag1, "=", SUM).post();
         model.sum(diag2, "=", SUM).post();
 
-        /* STRATEGY */
+        model.allDifferent(allValues).post();
+
         System.out.println("1\t- default");
         System.out.println("2\t- dom over WDeg search");
         System.out.println("3\t- input order LB search");
